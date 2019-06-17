@@ -7,8 +7,8 @@ package modelo;
 public class Estudiante extends Persona {
     private int SituacionClase;
 
-    public Estudiante(String nombre, String email, int telefono, int Situacion) {
-        super(nombre, email, telefono);
+    public Estudiante(String nombre, String email, int telefono,String direccion, int Situacion) {
+        super(nombre, email, telefono, direccion);
         
     }
 

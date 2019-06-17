@@ -10,8 +10,8 @@ public class NoDocente extends Empleado {
     
     private String titulo;
     
-    public NoDocente(String nombre, String email, int telefono, double salario, Date fecha, String titulo){
-        super(nombre, email, telefono, salario, fecha);
+    public NoDocente(String nombre, String email, int telefono,String direccion, double salario, Date fecha, String titulo){
+        super(nombre, email, telefono,direccion, salario, fecha);
     }
 
     public String getTitulo() {

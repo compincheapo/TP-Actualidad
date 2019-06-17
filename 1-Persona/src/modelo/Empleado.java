@@ -9,8 +9,8 @@ public abstract class Empleado extends Persona {
     private double salario;
     private Date fechaContrato;
     
-    protected Empleado(String nombre, String email, int telefono, double salario, Date fecha){
-        super(nombre, email, telefono);
+    protected Empleado(String nombre, String email, int telefono,String direccion, double salario, Date fecha){
+        super(nombre, email, telefono, direccion);
     }
 
     public double getSalario() {

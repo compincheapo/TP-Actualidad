@@ -10,10 +10,11 @@ public abstract class Persona {
     private String email;
     private int telefono;
     
-    protected Persona(String nombre, String email, int telefono){
+    protected Persona(String nombre, String email, int telefono,String direccion){
         this.nombre = nombre;
         this.email = email;
         this.telefono = telefono;
+        this.direccion = direccion;
     }
 
     public String getNombre() {
