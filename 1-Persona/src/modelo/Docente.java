@@ -25,7 +25,7 @@ public class Docente extends Empleado{
 
     @Override
     public String toString() {
-        return "Docente: " + super.getNombre();
+        return "Docente: " + super.getNombre()+"Telefono"+super.getTelefono()+"Salario"+super.getSalario();
     }
     
 }
