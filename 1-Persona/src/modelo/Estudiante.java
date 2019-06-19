@@ -22,6 +22,6 @@ public class Estudiante extends Persona {
 
     @Override
     public String toString() {
-        return "Estudiante: " + super.getNombre()+"Telefono"+ super.getTelefono()+"Direccion"+super.getDireccion();
+        return "Estudiante: " + super.getNombre()+"Telefono: "+ super.getTelefono()+"Direccion: "+super.getDireccion();
     }
 }
